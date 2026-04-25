@@ -207,8 +207,6 @@ You can use, adapt, and redistribute the content commercially with attribution. 
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=AgriciDaniel/flow&type=Date)](https://star-history.com/#AgriciDaniel/flow&Date)
-
 *If FLOW helps you ship something, star the repo and share the framework.
 That's the attribution chain that keeps the evidence layer current.*
 
