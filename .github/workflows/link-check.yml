@@ -1,0 +1,25 @@
+name: link-check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/link-check.yml"
+  schedule:
+    # Monthly run on the 1st at 06:00 UTC catches link decay even without PRs
+    - cron: "0 6 1 * *"
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Markdown link check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: "yes"
+          use-verbose-mode: "no"
+          config-file: ".github/markdown-link-check-config.json"
+          folder-path: "docs"
+          file-extension: ".md"

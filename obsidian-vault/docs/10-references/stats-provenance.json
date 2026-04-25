@@ -1,0 +1,158 @@
+[
+  {
+    "stat": "AI Overviews reduce clicks by ~58% to top-ranking pages.",
+    "found_in": [
+      "FLOW vault FLOW-Source-Material.md",
+      "multiple FLOW framework/tactic notes"
+    ],
+    "verified_url": "https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "58% lower average CTR for position-one content when an AI Overview is present, using December 2025 Ahrefs data",
+    "status": "verified"
+  },
+  {
+    "stat": "Original content creation was the highest-impact SEO activity at 66.3%; content updates 42.6%; technical enhancements 42.3%.",
+    "found_in": [
+      "FLOW vault FLOW-Source-Material.md",
+      "SEJ_StateofSEO2026.pdf"
+    ],
+    "verified_url": "https://www.searchenginejournal.com/state-of-seo/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "66.3% original content; 42.6% content updates; 42.3% technical enhancements",
+    "status": "verified"
+  },
+  {
+    "stat": "60.4% prioritize qualified leads/sales conversions for SEO measurement; 33.7% plan conversion-focused SEO investment.",
+    "found_in": [
+      "FLOW vault FLOW-Source-Material.md",
+      "SEJ_StateofSEO2026.pdf"
+    ],
+    "verified_url": "https://www.searchenginejournal.com/state-of-seo/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "60.4% measurement priority; 33.7% planned investment",
+    "status": "verified"
+  },
+  {
+    "stat": "42% of organizations trained teams to integrate AI into SEO workflows.",
+    "found_in": [
+      "FLOW vault FLOW-Source-Material.md",
+      "SEJ_StateofSEO2026.pdf"
+    ],
+    "verified_url": "https://www.searchenginejournal.com/state-of-seo/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "42% trained teams / 42.0% AI readiness priority",
+    "status": "verified"
+  },
+  {
+    "stat": "77.9% worry about AI reducing website clicks.",
+    "found_in": [
+      "SEJ_StateofSEO2026.pdf extracted text"
+    ],
+    "verified_url": "https://www.searchenginejournal.com/state-of-seo/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "77.9% worry about AI reducing website clicks",
+    "status": "verified"
+  },
+  {
+    "stat": "Users clicked traditional search-result links on 8% of visits with an AI summary versus 15% without one.",
+    "found_in": [
+      "Phase 2 live web research"
+    ],
+    "verified_url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "8% with AI summary vs 15% without AI summary",
+    "status": "verified"
+  },
+  {
+    "stat": "Semrush/Datos found zero-click rate decreased from 33.75% to 31.53% after AIO appeared for same keywords.",
+    "found_in": [
+      "Phase 2 live web research"
+    ],
+    "verified_url": "https://www.semrush.com/blog/semrush-ai-overviews-study/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "33.75% to 31.53%",
+    "status": "verified"
+  },
+  {
+    "stat": "A complete Google Business Profile makes customers 2.7x more likely to consider a business reputable.",
+    "found_in": [
+      "Phase 2 live web research",
+      "BrightLocal local statistics page"
+    ],
+    "verified_url": "https://support.google.com/business/answer/10515606?hl=en",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "2.7x more likely to consider reputable",
+    "status": "verified"
+  },
+  {
+    "stat": "A complete Google Business Profile makes customers 70% more likely to visit and 50% more likely to consider purchasing.",
+    "found_in": [
+      "Phase 2 live web research",
+      "BrightLocal local statistics page"
+    ],
+    "verified_url": "https://support.google.com/business/answer/10515606?hl=en",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "70% more likely to visit; 50% more likely to consider purchasing",
+    "status": "verified"
+  },
+  {
+    "stat": "45% of consumers use ChatGPT or other generative AI tools for local business recommendations.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "45%",
+    "status": "verified"
+  },
+  {
+    "stat": "Only 68% of business contact information on ChatGPT and Perplexity matches Google Business Profile details.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "68%",
+    "status": "verified"
+  },
+  {
+    "stat": "Less than half of businesses that lead in Google local search results also appear in AI local recommendations.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "less than half",
+    "status": "verified"
+  },
+  {
+    "stat": "ChatGPT Search local sources: business websites 58%, business mentions 27%, online directories 15%.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "58% business websites; 27% mentions; 15% directories",
+    "status": "verified"
+  },
+  {
+    "stat": "75% of ChatGPT users use keywords rather than natural language when looking for local services.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "75%",
+    "status": "verified"
+  },
+  {
+    "stat": "39% of ChatGPT users click to visit a business website when looking for local businesses.",
+    "found_in": [
+      "BrightLocal 2026 local SEO statistics"
+    ],
+    "verified_url": "https://www.brightlocal.com/resources/local-seo-statistics/",
+    "retrieval_date": "2026-04-25",
+    "verified_value": "39%",
+    "status": "verified"
+  }
+]

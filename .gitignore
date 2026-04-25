@@ -1,0 +1,29 @@
+# Snapshots / rollback artifacts (kept locally, not pushed)
+_deprecated/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Node (if ever used in scripts)
+node_modules/
+dist/
+
+# Obsidian local workspace cache (the .obsidian/ config still ships)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+obsidian-vault/.obsidian/workspace*
+obsidian-vault/.obsidian/cache
