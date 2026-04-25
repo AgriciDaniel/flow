@@ -1,22 +1,77 @@
+<div align="center">
+
+<img src="assets/social-preview.png" alt="FLOW SEO — Find, Leverage, Optimize, Win — an evidence-led SEO playbook for the AI-search era" width="720" />
+
 # FLOW SEO
 
-> **Find → Leverage → Optimize → Win.**
-> An evidence-led SEO knowledge base for humans and AI agents — built for 2026 search reality.
+**Find → Leverage → Optimize → Win.**
+An evidence-led SEO knowledge base for humans and AI agents — built for 2026 search reality.
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/Content-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE.md)
 [![Made for AI agents](https://img.shields.io/badge/Made_for-AI_agents-purple.svg)](llms.txt)
 [![Last updated](https://img.shields.io/badge/Updated-2026--04--25-green.svg)](CHANGELOG.md)
+[![Release](https://img.shields.io/github/v/release/AgriciDaniel/flow?label=Release&color=success)](https://github.com/AgriciDaniel/flow/releases)
+[![Stars](https://img.shields.io/github/stars/AgriciDaniel/flow?style=flat&color=yellow)](https://github.com/AgriciDaniel/flow/stargazers)
+
+[![Docs](https://img.shields.io/badge/Docs-72-0f1a2e?labelColor=0f1a2e&color=f5a623)](docs/)
+[![Prompts](https://img.shields.io/badge/AI_Prompts-42-0f1a2e?labelColor=0f1a2e&color=f5a623)](docs/09-prompts/)
+[![Diagrams](https://img.shields.io/badge/Diagrams-27-0f1a2e?labelColor=0f1a2e&color=f5a623)](assets/diagrams/)
+[![Sourced Stats](https://img.shields.io/badge/Sourced_Stats-15-0f1a2e?labelColor=0f1a2e&color=f5a623)](docs/10-references/stats-provenance.json)
+
+</div>
 
 FLOW is a complete operating model for SEO in the AI-search era: classic organic visibility, AI Overviews and LLM citations, local search and Google Business Profile, off-site corroboration, and conversion measurement — all wired together with cited 2026 evidence and 42 standardized AI prompts.
 
 ---
 
+## The FLOW loop
+
+```mermaid
+flowchart LR
+    F["<b>FIND</b><br/>map demand &<br/>surfaces"]
+    L["<b>LEVERAGE</b><br/>distributed<br/>presence"]
+    O["<b>OPTIMIZE</b><br/>extraction &<br/>trust"]
+    W["<b>WIN</b><br/>convert &<br/>measure"]
+
+    F --> L --> O --> W
+    W -.refresh.-> F
+
+    classDef stage fill:#0f1a2e,stroke:#f5a623,stroke-width:2px,color:#ffffff,padding:10px
+    class F,L,O,W stage
+```
+
+Each stage is a doc pillar. Each pillar has a What / Why-2026 / How-to-apply / Sources structure so a human reader, a search engine, and an AI agent can all extract from the same page.
+
 ## Why FLOW exists
 
 Search in 2026 is not one results page and one click path. The same query can reach a buyer through Google organic, AI Overviews, ChatGPT or Perplexity citations, local pack listings, Reddit threads, YouTube videos, or LinkedIn discussions — often without a single visit to the brand's site. Most public SEO knowledge predates this reality.
 
+<div align="center">
+
+![Surface map — query reaches buyers through eight surfaces in parallel: Google organic, AI Overviews, ChatGPT, Perplexity, local pack, Reddit, YouTube, LinkedIn](assets/diagrams/flow-v4-surface-map.png)
+
+</div>
+
 FLOW treats those surfaces as one connected system. Every doc here is grounded in a 2026-current source with a retrieval date, every claim that couldn't be verified got dropped, and every prompt is reproducible by an AI agent reading from this repo.
+
+## Evidence standard
+
+Every public statistic in this repo carries:
+
+- **Year anchor in prose** ("In 2026," / "As of Q1 2026,")
+- **Inline citation** with publisher, title, page or URL
+- **Source URL with retrieval date** in the [bibliography](docs/10-references/bibliography.md)
+
+Unverifiable stats were dropped. Contradicted stats were replaced with verified alternatives. Three independent 2025–2026 datasets agree that AI Overviews materially reduce click-through to position one:
+
+<div align="center">
+
+![AI Overviews click reduction across three independent 2025-2026 datasets — Pew Research, Ahrefs, Semrush](assets/diagrams/flow-v5-aio-click-reduction.gif)
+
+</div>
+
+The full provenance ledger lives at [`docs/10-references/stats-provenance.json`](docs/10-references/stats-provenance.json).
 
 ## Who this is for
 
@@ -24,7 +79,7 @@ FLOW treats those surfaces as one connected system. Every doc here is grounded i
 |---|---|
 | **A solo SEO operator or in-house marketer** | [`docs/00-START-HERE.md`](docs/00-START-HERE.md) → [`docs/01-framework/flow-framework.md`](docs/01-framework/flow-framework.md) |
 | **A local-business owner or local-SEO consultant** | [`docs/07-local-seo/`](docs/07-local-seo/) — full pillar from map pack to property audits |
-| **A B2B / SaaS / service-business strategist** | [`docs/08-playbooks/`](docs/08-playbooks/) — six business-type playbooks |
+| **A B2B / SaaS / service-business strategist** | [`docs/08-playbooks/`](docs/08-playbooks/) — five business-type playbooks with stage-flow diagrams |
 | **An AI agent** (Claude, GPT, Gemini, Cursor, Codex) | [`llms.txt`](llms.txt) → load context. [`docs/09-prompts/`](docs/09-prompts/) → 42 standardized prompts |
 | **An Obsidian power user** | Clone this repo, open [`obsidian-vault/`](obsidian-vault/) as a vault — wikilinks and frontmatter intact |
 
@@ -36,15 +91,35 @@ FLOW treats those surfaces as one connected system. Every doc here is grounded i
 3. Each pillar doc has the same structure: *What this is · Why it matters in 2026 · How to apply · Sources*
 
 ### Pair with your AI agent
-1. Clone the repo: `git clone https://github.com/AgriciDaniel/flow.git`
-2. Point your agent (Claude Code, Cursor, Codex, etc.) at the repo folder
-3. Brief it: *"Use FLOW as the framework. Cite the bibliography. No unsourced stats."*
-4. Hand it real tasks: draft a brief, audit a page, plan a topic cluster, score a service page on the dual-surface scorecard
+```bash
+git clone https://github.com/AgriciDaniel/flow.git
+cd flow
+# Point Claude Code / Cursor / Codex / Gemini at this folder.
+# Brief it: "Use FLOW as the framework. Cite the bibliography. No unsourced stats."
+```
+Then hand it real work: draft a brief, audit a page, plan a topic cluster, score a service page on the [dual-surface scorecard](docs/06-win/dual-surface-scorecard.md).
 
 ### Run as Obsidian vault
 1. Clone the repo
 2. Open [`obsidian-vault/`](obsidian-vault/) in Obsidian (Open folder as vault)
 3. Wikilinks, frontmatter, and the canvas mirror work out of the box
+
+## What's inside
+
+<div align="center">
+
+| Stage | Sample diagram | Live in |
+|:---:|:---:|:---|
+| **FIND** | <img src="assets/diagrams/flow-v4-query-fanout.png" alt="Query fan-out" width="280" /> | [`docs/03-find/`](docs/03-find/) |
+| **LEVERAGE** | <img src="assets/diagrams/flow-v4-distributed-presence.png" alt="Distributed presence" width="280" /> | [`docs/04-leverage/`](docs/04-leverage/) |
+| **OPTIMIZE** | <img src="assets/diagrams/flow-v4-extraction-layout.png" alt="Extraction layout" width="280" /> | [`docs/05-optimize/`](docs/05-optimize/) |
+| **WIN** | <img src="assets/diagrams/flow-v4-win-stage.png" alt="Win stage" width="280" /> | [`docs/06-win/`](docs/06-win/) |
+| **LOCAL** | <img src="assets/diagrams/flow-v4-local-seo-system.png" alt="Local SEO system" width="280" /> | [`docs/07-local-seo/`](docs/07-local-seo/) |
+| **PLAYBOOKS** | <img src="assets/diagrams/flow-v5-saas-stage-flow.png" alt="SaaS playbook stage flow" width="280" /> | [`docs/08-playbooks/`](docs/08-playbooks/) |
+
+</div>
+
+Plus four animated Remotion visuals anchored to verified statistics: AI Overviews click reduction, Google Business Profile completeness uplift, ChatGPT local source mix, and the dual-surface scorecard.
 
 ## Repository structure
 
@@ -67,11 +142,11 @@ flow/
 │   ├── 05-optimize/             ← GEO formatting, entity consistency, CTR, schema
 │   ├── 06-win/                  ← BOFU + conversion, PPC + first-party, scorecard
 │   ├── 07-local-seo/            ← Local SEO pillar (map pack, GBP, property audits)
-│   ├── 08-playbooks/            ← SaaS / Ecommerce / Service / B2B / Affiliate / Local
-│   ├── 09-prompts/              ← 42 standardized AI prompts (find / leverage / optimize / win / local)
+│   ├── 08-playbooks/            ← SaaS / Ecommerce / Service / B2B / Affiliate
+│   ├── 09-prompts/              ← 42 standardized AI prompts
 │   └── 10-references/           ← bibliography, attribution, independence ledger
 ├── assets/
-│   ├── diagrams/                ← FLOW-native diagrams (PNG)
+│   ├── diagrams/                ← FLOW-native diagrams (PNG + animated GIF)
 │   ├── canvases/                ← Obsidian canvas exports
 │   └── social-preview.png       ← GitHub social card
 ├── obsidian-vault/              ← parallel mirror with wikilinks + frontmatter
@@ -79,16 +154,6 @@ flow/
 └── scripts/
     └── check_docs.py            ← evidence-standard CI check
 ```
-
-## Evidence standard
-
-Every public statistic in this repo carries:
-
-- **Year anchor in prose** ("In 2026," / "As of Q1 2026,")
-- **Inline citation** with publisher, title, page or URL
-- **Source URL with retrieval date** in the bibliography
-
-Unverifiable stats were dropped. Contradicted stats were replaced with verified alternatives. The full provenance ledger lives at [`docs/10-references/stats-provenance.json`](docs/10-references/stats-provenance.json).
 
 ## What this is not
 
@@ -100,11 +165,11 @@ Unverifiable stats were dropped. Contradicted stats were replaced with verified 
 
 Corrections, source improvements, and 2026-current citations are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the evidence standard, prompt schema, and PR checklist.
 
-Found an outdated statistic? Open an issue using the **Source correction** template — it's the highest-value contribution this repo accepts.
+Found an outdated statistic? Open an issue using the **[Source correction](https://github.com/AgriciDaniel/flow/issues/new?template=source-correction.md)** template — it's the highest-value contribution this repo accepts.
 
 ## Maintainer
 
-**Daniel Agrici** — built FLOW as a 2026 reframing of decade-old SEO methodology against current AI-search reality. Connect via the repo's Discussions tab.
+**Daniel Agrici** — built FLOW as a 2026 reframing of decade-old SEO methodology against current AI-search reality. Connect via the repo's [Discussions](https://github.com/AgriciDaniel/flow/discussions) tab.
 
 ## License
 
@@ -116,4 +181,11 @@ You can use, adapt, and redistribute the content commercially with attribution. 
 
 ---
 
-*If FLOW helps you ship something, star the repo and share the framework. That's the attribution chain that keeps the evidence layer current.*
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=AgriciDaniel/flow&type=Date)](https://star-history.com/#AgriciDaniel/flow&Date)
+
+*If FLOW helps you ship something, star the repo and share the framework.
+That's the attribution chain that keeps the evidence layer current.*
+
+</div>
