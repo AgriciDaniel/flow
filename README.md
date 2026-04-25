@@ -49,7 +49,11 @@ Search in 2026 is not one results page and one click path. The same query can re
 
 <div align="center">
 
-![Surface map — query reaches buyers through eight surfaces in parallel: Google organic, AI Overviews, ChatGPT, Perplexity, local pack, Reddit, YouTube, LinkedIn](assets/diagrams/flow-v4-surface-map.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-surface-map.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/diagrams/flow-v4-surface-map-light.png">
+  <img alt="Surface map — query reaches buyers through five surfaces in parallel: owned site, search, profiles, communities, AI answers" src="assets/diagrams/flow-v4-surface-map-light.png" width="900">
+</picture>
 
 </div>
 
@@ -104,18 +108,26 @@ Then hand it real work: draft a brief, audit a page, plan a topic cluster, score
 2. Open [`obsidian-vault/`](obsidian-vault/) in Obsidian (Open folder as vault)
 3. Wikilinks, frontmatter, and the canvas mirror work out of the box
 
+The bundled `.obsidian/graph.json` ships with a tag-based color scheme so the FLOW pillars are visible at a glance:
+
+<div align="center">
+
+<img src="assets/diagrams/flow-graph-view.png" alt="Obsidian graph view of the FLOW vault — three connected clusters colored by tag (find / leverage / optimize / win / local-seo / playbooks / prompts / references / foundations / framework)" width="780">
+
+</div>
+
 ## What's inside
 
 <div align="center">
 
 | Stage | Sample diagram | Live in |
 |:---:|:---:|:---|
-| **FIND** | <img src="assets/diagrams/flow-v4-query-fanout.png" alt="Query fan-out" width="280" /> | [`docs/03-find/`](docs/03-find/) |
-| **LEVERAGE** | <img src="assets/diagrams/flow-v4-distributed-presence.png" alt="Distributed presence" width="280" /> | [`docs/04-leverage/`](docs/04-leverage/) |
-| **OPTIMIZE** | <img src="assets/diagrams/flow-v4-extraction-layout.png" alt="Extraction layout" width="280" /> | [`docs/05-optimize/`](docs/05-optimize/) |
-| **WIN** | <img src="assets/diagrams/flow-v4-win-stage.png" alt="Win stage" width="280" /> | [`docs/06-win/`](docs/06-win/) |
-| **LOCAL** | <img src="assets/diagrams/flow-v4-local-seo-system.png" alt="Local SEO system" width="280" /> | [`docs/07-local-seo/`](docs/07-local-seo/) |
-| **PLAYBOOKS** | <img src="assets/diagrams/flow-v5-saas-stage-flow.png" alt="SaaS playbook stage flow" width="280" /> | [`docs/08-playbooks/`](docs/08-playbooks/) |
+| **FIND** | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-query-fanout.png"><img src="assets/diagrams/flow-v4-query-fanout-light.png" alt="Query fan-out" width="280"></picture> | [`docs/03-find/`](docs/03-find/) |
+| **LEVERAGE** | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-distributed-presence.png"><img src="assets/diagrams/flow-v4-distributed-presence-light.png" alt="Distributed presence" width="280"></picture> | [`docs/04-leverage/`](docs/04-leverage/) |
+| **OPTIMIZE** | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-extraction-layout.png"><img src="assets/diagrams/flow-v4-extraction-layout-light.png" alt="Extraction layout" width="280"></picture> | [`docs/05-optimize/`](docs/05-optimize/) |
+| **WIN** | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-win-stage.png"><img src="assets/diagrams/flow-v4-win-stage-light.png" alt="Win stage" width="280"></picture> | [`docs/06-win/`](docs/06-win/) |
+| **LOCAL** | <picture><source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-v4-local-seo-system.png"><img src="assets/diagrams/flow-v4-local-seo-system-light.png" alt="Local SEO system" width="280"></picture> | [`docs/07-local-seo/`](docs/07-local-seo/) |
+| **PLAYBOOKS** | <img src="assets/diagrams/flow-v5-saas-stage-flow.png" alt="SaaS playbook stage flow" width="280"> | [`docs/08-playbooks/`](docs/08-playbooks/) |
 
 </div>
 
