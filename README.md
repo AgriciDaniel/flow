@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="assets/social-preview.png" alt="FLOW SEO — Find, Leverage, Optimize, Win — an evidence-led SEO playbook for the AI-search era" width="720" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/diagrams/flow-hero.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/diagrams/flow-hero-light.png">
+  <img alt="FLOW SEO — Find, Leverage, Optimize, Win — an evidence-led SEO playbook for the AI-search era" src="assets/diagrams/flow-hero-light.png" width="900">
+</picture>
 
 # FLOW SEO
 
@@ -108,11 +112,19 @@ Then hand it real work: draft a brief, audit a page, plan a topic cluster, score
 2. Open [`obsidian-vault/`](obsidian-vault/) in Obsidian (Open folder as vault)
 3. Wikilinks, frontmatter, and the canvas mirror work out of the box
 
-The bundled `.obsidian/graph.json` ships with a tag-based color scheme so the FLOW pillars are visible at a glance:
+The bundled `.obsidian/graph.json` ships with a tag-based color scheme so the FLOW pillars are visible at a glance. Open the graph view (`Ctrl+G`) to navigate the 78 cross-linked notes:
 
 <div align="center">
 
-<img src="assets/diagrams/flow-graph-view.png" alt="Obsidian graph view of the FLOW vault — three connected clusters colored by tag (find / leverage / optimize / win / local-seo / playbooks / prompts / references / foundations / framework)" width="780">
+<img src="assets/diagrams/flow-graph-view-detail.png" alt="Obsidian graph view of the FLOW vault — labeled nodes radiate from four hubs (index, README, bibliography, flow-framework), color-coded by tag with the FLOW stage palette" width="900">
+
+</div>
+
+The graph filter ships scoped to `obsidian-vault/`, so the duplicate `docs/` tree at the repo root and the standards files don't crowd the canvas. The same data with `showOrphans: false` and the path filter applied collapses to three focused clusters:
+
+<div align="center">
+
+<img src="assets/diagrams/flow-graph-view.png" alt="Three-cluster overview of the FLOW Obsidian vault graph — find/leverage/optimize/win pillars on top, wiki cluster bottom-left, playbooks cluster bottom-right" width="640">
 
 </div>
 
