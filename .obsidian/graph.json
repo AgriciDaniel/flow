@@ -7,16 +7,76 @@
   "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
-    { "query": "tag:#find",        "color": { "a": 1, "rgb": 5223388 } },
-    { "query": "tag:#leverage",    "color": { "a": 1, "rgb": 10980346 } },
-    { "query": "tag:#optimize",    "color": { "a": 1, "rgb": 16098083 } },
-    { "query": "tag:#win",         "color": { "a": 1, "rgb": 2278750 } },
-    { "query": "tag:#local-seo",   "color": { "a": 1, "rgb": 1357990 } },
-    { "query": "tag:#playbooks",   "color": { "a": 1, "rgb": 15485081 } },
-    { "query": "tag:#prompts",     "color": { "a": 1, "rgb": 6513393 } },
-    { "query": "tag:#references",  "color": { "a": 1, "rgb": 9740728 } },
-    { "query": "tag:#foundations", "color": { "a": 1, "rgb": 16487996 } },
-    { "query": "tag:#framework",   "color": { "a": 1, "rgb": 15680580 } }
+    {
+      "query": "tag:#find",
+      "color": {
+        "a": 1,
+        "rgb": 5223388
+      }
+    },
+    {
+      "query": "tag:#leverage",
+      "color": {
+        "a": 1,
+        "rgb": 10980346
+      }
+    },
+    {
+      "query": "tag:#optimize",
+      "color": {
+        "a": 1,
+        "rgb": 16098083
+      }
+    },
+    {
+      "query": "tag:#win",
+      "color": {
+        "a": 1,
+        "rgb": 2278750
+      }
+    },
+    {
+      "query": "tag:#local-seo",
+      "color": {
+        "a": 1,
+        "rgb": 1357990
+      }
+    },
+    {
+      "query": "tag:#playbooks",
+      "color": {
+        "a": 1,
+        "rgb": 15485081
+      }
+    },
+    {
+      "query": "tag:#prompts",
+      "color": {
+        "a": 1,
+        "rgb": 6513393
+      }
+    },
+    {
+      "query": "tag:#references",
+      "color": {
+        "a": 1,
+        "rgb": 9740728
+      }
+    },
+    {
+      "query": "tag:#foundations",
+      "color": {
+        "a": 1,
+        "rgb": 16487996
+      }
+    },
+    {
+      "query": "tag:#framework",
+      "color": {
+        "a": 1,
+        "rgb": 15680580
+      }
+    }
   ],
   "collapse-display": true,
   "showArrow": false,
@@ -28,6 +88,6 @@
   "repelStrength": 12,
   "linkStrength": 1,
   "linkDistance": 220,
-  "scale": 0.45,
-  "close": false
+  "scale": 0.12631644718350432,
+  "close": true
 }
