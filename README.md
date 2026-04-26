@@ -107,6 +107,17 @@ cd flow
 ```
 Then hand it real work: draft a brief, audit a page, plan a topic cluster, score a service page on the [dual-surface scorecard](docs/06-win/dual-surface-scorecard.md).
 
+### Ingest into SEO-Agent brain
+
+[SEO-Agent](https://github.com/AgriciDaniel/claude-seo) is the primary AI consumer of FLOW. It ingests all 72 docs into a persistent brain so every session starts with FLOW doctrine in context:
+
+```bash
+# From SEO-Agent repo root — mirrors + ingests in one command
+python claude-seo/scripts/sync_flow_content.py
+```
+
+See [CLAUDE.md](CLAUDE.md) for the full integration guide.
+
 ### Run as Obsidian vault
 1. Clone the repo
 2. Open [`obsidian-vault/`](obsidian-vault/) in Obsidian (Open folder as vault)
